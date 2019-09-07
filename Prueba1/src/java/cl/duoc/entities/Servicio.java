@@ -14,7 +14,7 @@ import java.util.Date;
 public class Servicio {
     
     private int idServicio;
-    private Date fecha; // la hora en que la micro llega
+    private Date horaLlegada; // la hora en que la micro llega
     private String recorrido; // ejem: f13, f26
     private String patente;
     private boolean sentido; // a que direccion va la micro
@@ -26,9 +26,9 @@ public class Servicio {
     public Servicio() {
     }
 
-    public Servicio(int idServicio, Date fecha, String recorrido, String patente, boolean sentido, String despachar, String observacionServicio, String observacion, String fechaObservacion) {
+    public Servicio(int idServicio, Date horaLlegada, String recorrido, String patente, boolean sentido, String despachar, String observacionServicio, String observacion, String fechaObservacion) {
         this.idServicio = idServicio;
-        this.fecha = fecha;
+        this.horaLlegada = horaLlegada;
         this.recorrido = recorrido;
         this.patente = patente;
         this.sentido = sentido;
@@ -46,12 +46,12 @@ public class Servicio {
         this.idServicio = idServicio;
     }
 
-    public Date getFecha() {
-        return fecha;
+    public Date getHoraLlegada() {
+        return horaLlegada;
     }
 
-    public void setFecha(Date fecha) {
-        this.fecha = fecha;
+    public void setHoraLlegada(Date horaLlegada) {
+        this.horaLlegada = horaLlegada;
     }
 
     public String getRecorrido() {
@@ -109,6 +109,8 @@ public class Servicio {
     public void setFechaObservacion(String fechaObservacion) {
         this.fechaObservacion = fechaObservacion;
     }
+
+    
     
     
     

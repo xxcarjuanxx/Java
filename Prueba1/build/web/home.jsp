@@ -10,39 +10,39 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home</title>
     </head>
     <body>
-        <c:import url="menu.jsp"/>
-        <form  action="VeterinariaServlet" method="POST">
+        <c:import url="menu_1.jsp"/>
+        <form  action="ServicioServlet" method="POST">
             <table>
                <tr>
                    <td>Id</td>
-                   <td><input type="number" name="id"></td>                
+                   <td><input type="number" name="txtId"></td>                
                </tr>
                <tr>
-                   <td>Fecha llegada</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td>Hora llegada</td>
+                   <td><input type="datetime" name="dtHoraLLegada"></td>                
                </tr>
                <tr>
                    <td>Recorrido</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td><input type="text" name="txtRecorrido"></td>                
                </tr>
                <tr>
                    <td>Patente</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td><input type="text" name="txtPatente"></td>                
                </tr>
                <tr>
                    <td>Sentido</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td><input type="text" name="txtSentido"></td>                
                </tr>
                <tr>
                    <td>Despachar</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td><input type="datetime" name="dtDespachar"></td>                
                </tr>
                <tr>
                    <td>Observacion</td>
-                   <td><input type="text" name="nombre"></td>                
+                   <td><input type="text" name="txtObservacion"></td>                
                </tr>
 
                <tr>
