@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/index.jsp</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/login.jsp</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/src/java/cl/duoc/controller/UsuarioServlet.java</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/listar.jsp</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/menu_1.jsp</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/src/java/cl/duoc/entities/Usuario.java</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/src/java/cl/duoc/controller/ServicioServlet.java</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/menu.jsp</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/src/java/cl/duoc/entities/Servicio.java</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/src/java/cl/duoc/entities/AdministrarServicio.java</file>
-            <file>file:/C:/Users/Juan%20Colonia/Documents/MEGA%20Personal/JAVA/Prueba1/web/home.jsp</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
