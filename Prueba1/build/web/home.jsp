@@ -21,40 +21,33 @@
                    <td><input type="number" name="id"></td>                
                </tr>
                <tr>
-                   <td>Nombre</td>
+                   <td>Fecha llegada</td>
                    <td><input type="text" name="nombre"></td>                
                </tr>
                <tr>
-                   <td>Raza</td>
-                   <td>
-                       <select name="raza">
-                           <option value="Perro">Perro</option>
-                           <option value="Gato">Gato</option>
-                           <option value="Pajarito">Pajarito</option>
-                       </select>
-                   </td>                
+                   <td>Recorrido</td>
+                   <td><input type="text" name="nombre"></td>                
                </tr>
                <tr>
-                   <td>Edad</td>
-                   <td><input type="number" name="edad"></td>                
+                   <td>Patente</td>
+                   <td><input type="text" name="nombre"></td>                
                </tr>
                <tr>
-                   <td>Vacunas</td>
-                   <td>
-                       <input type="radio" name="vacunas" value="si">Si</input>
-                       <input type="radio" name="vacunas" value="no">No</input>
-                   </td>                
+                   <td>Sentido</td>
+                   <td><input type="text" name="nombre"></td>                
                </tr>
                <tr>
-                   <td>Sexo</td>
-                   <td>
-                       <input type="radio" name="sexo" value="H">Hembra</input>
-                       <input type="radio" name="sexo" value="M">Macho</input>
-                   </td>                
+                   <td>Despachar</td>
+                   <td><input type="text" name="nombre"></td>                
                </tr>
+               <tr>
+                   <td>Observacion</td>
+                   <td><input type="text" name="nombre"></td>                
+               </tr>
+
                <tr>
                    <td colspan="2">
-                       <button type="submit">Agregar Mascota</button>
+                       <button type="submit">Agregar Solicitud</button>
                    </td>                
                </tr>
                <c:if test="${msg != null}">
