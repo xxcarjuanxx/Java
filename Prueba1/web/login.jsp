@@ -15,7 +15,7 @@
         <h1>Bienvenido</h1>
         <h3>Ingrese sus datos</h3>
         <div>
-            <form action="LoginServlet" method="post">
+            <form action="UsuarioServlet" method="post">
                 <input type="text" name="txtUsuario" placeholder="USERNAME"/>
                 <input type="password" name="txtPassword" placeholder="PASSWORD"/>
                 <button type="submit">Log In</button>                    

@@ -16,6 +16,7 @@ public class Usuario {
     private String contrasenia;
     private String nombre;
     private String apellido;
+    //private String rol;
 
 
     public Usuario() {
